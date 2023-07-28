@@ -1,8 +1,9 @@
-html {
+ html {
   box-sizing: border-box;
   background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
   background-size: cover;
 }
+
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -66,5 +67,6 @@ body {
 .item:nth-child(9n+8) { background: darkslateblue;}
 .item:nth-child(9n+9) { background: rebeccapurple;}
 
-.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
-.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); } 
+.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); } 
+ 
